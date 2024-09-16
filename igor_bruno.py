@@ -56,9 +56,9 @@ def realizar_sorteio():
 def mostrar_resultado(escolha, sorteio, acertou):
     print(f"\nSorteio: {sorteio}")
     if acertou:
-        print(f"Parabéns! Você ganhou com o animal {escolha}.")
+        print(f"Parabéns! Você ganhou com o bicho {escolha}.")
     else:
-        print(f"Que pena! O animal {escolha} não ganhou. Tente novamente!")
+        print(f"Que pena! O bicho {escolha} não ganhou. Tente novamente!")
 
 def main():
     mostrar_opcoes_bicho()
